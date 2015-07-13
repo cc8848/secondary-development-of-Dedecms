@@ -1,0 +1,82 @@
+@charset "utf-8";
+a{color:#077ac7; text-decoration:none}
+a:hover {color:#f77e13; text-decoration: none}
+.a2,.a3,.a4,.a6,.a7,.a8,.a9,.a10,.a12,.a13,.a14,.a15,.a17,.a18,.a19,.a20,.a22,.a23,.a24,.a25{margin-left:38px;}
+#header{width:100%; height:31px; border-bottom:#0774b9 1px solid;}
+#menu{width:100%; height:30px; background-color:#028ada; border-bottom:#3fb7f8 1px solid;}
+.top{width:980px; height:29px;}
+.logn{float:left; width:680px; height:29px; line-height:29px; color:#fff;}
+.logn a{color:#fff; text-decoration: none; margin-left:0px; padding:3px;}
+.logn a:hover{color:#fff; text-decoration: underline; padding:3px;}
+.txt{float:right; width:300px;}
+.txt ul{float:right;}
+.txt li{float:left; width:auto; line-height:29px; color:#fff; background:none;}
+.txt li a{color:#fff; text-decoration: none;}
+.txt li a:hover{ color:#fff; text-decoration: underline;}
+.module{width:980px; margin:0px auto;}
+.title{float:left; width:980px; height:28px; margin-top:25px; font-size:28px; line-height:28px; font-weight:bold; font-family:"微软雅黑"; color:#333;}
+/*左边*/
+.comment_list{float:left; width:648px; margin-top:25px; background:url(../images/comment_top.gif) repeat-x; border:#dbdbdb 1px solid;}
+/*发布评论*/
+.comment_fb{float:left; width:598px; margin:20px 0px 0px 25px; display:inline;}
+.comment_fb_top{float:left; width:598px; line-height:33px; color:#ff3300;}
+.comment_fb_top span{float:left; width:99px; height:33px; background:url(../images/comment_pl.gif) no-repeat;}
+.comment_fb_top b{float:left; width:450px; margin-left:15px; font-weight:bold;}
+.comment_fb_u{float:left; width:596px; height:220px; *height:230px; overflow:hidden; background-color:#f1f1f1; border:#dbdbdb 1px solid;}
+.comment_fb_u textarea{float:left; width:566px; height:112px; overflow:hidden; margin:15px; background-color:#fff; border:#dbdbdb 1px solid;}
+.comment_fb_u input{float:left; width:200px; height:22px; line-height:22px; margin:15px 0px 0px 15px; background-color:#fff; border:#dbdbdb 1px solid;}
+.comment_fb_u button{float:right; width:82px; height:23px; background:url(../images/comment_button.gif) no-repeat; cursor:pointer; *margin-top:-25px;}
+.comment_fb_u p{float:left; width:566px; margin:0px; padding:0px;}
+.comment_fb_u span{color:#666; padding-left:15px; line-height:25px;}
+/*评论列表*/
+.comment_m{float:left; width:596px; padding-left:25px; margin-top:20px;}
+.comment_m_top{float:left; width:596px; height:30px; line-height:30px; text-indent:10px; font-weight:bold; background-color:#f1f1f1; border:#dbdbdb 1px solid;}
+.comment_m ul{float:left; width:596px; height:145px; border-bottom:#999 1px dashed;}
+.comment_m li.pic{float:left; width:56px; height:56px; margin:20px 0px 0px 10px; display:inline;}
+.comment_m li.pic a img{width:50px; height:50px; padding:2px; border:#dbdbdb 1px solid;}
+.comment_m li.pic a:hover img{width:50px; height:50px; padding:2px; border:solid 1px #077ac7;}
+.comment_m li.txt{float:left; width:512px; height:30px; font-size:14px; margin:20px 0px 0px 18px; display:inline;}
+.comment_m li.txt span{ padding-left:10px; font-size:12px;}
+.comment_m li.txt span a{color:#333;}
+.comment_m li.txt span a:hover{color:#077ac7; text-decoration:underline;}
+.comment_m li.txt p{font-size:12px; margin:0px; padding:0px; color:#666;}
+/*详情*/
+.comment_q_list{float:left; width:648px; margin-top:25px; display:block; display:inline; background:url(../images/comment_top.gif) repeat-x; border:#dbdbdb 1px solid;}
+/*评论详情*/
+.comment_q{float:left; width:596px; padding-left:25px; margin-top:30px;}
+.comment_q_top{float:left; width:596px; height:30px; line-height:30px; font-size:22px; font-weight:bold;}
+.comment_q_pic{float:left; width:56px; height:56px; margin:20px 0px 0px 0px; display:inline;}
+.comment_q_pic a img{width:50px; height:50px; padding:2px; border:#dbdbdb 1px solid;}
+.comment_q_pic a:hover img{width:50px; height:50px; padding:2px; border:solid 1px #077ac7;}
+.comment_q_txt{float:left; width:522px; line-height:22px; font-size:14px; margin:10px 0px 0px 18px; display:inline;}
+.comment_q_p{float:left; font-size:12px; margin:20px 0px 0px 18px; padding:0px; color:#666;}
+.comment_q_jd{float:left; width:522px; margin:10px 0px 0px 75px; display:inline;}
+.comment_q_jd ul{float:left; width:522px; margin-top:10px;}
+.comment_q_jd li.pd{float:left; width:522px; height:22px; line-height:22px; background-color:#f1f1f1; text-indent:10px;}
+.comment_q_jd li.ct{float:left; width:522px; line-height:22px; padding-top:10px; text-indent:10px;}
+/*回复*/
+.comment_q_fb{float:left; width:522px; margin:20px 0px 0px 100px; display:inline; padding-bottom:30px;}
+.comment_q_fb_u{float:left; width:520px; height:150px; overflow:hidden; background-color:#f1f1f1; border:#dbdbdb 1px solid;}
+.comment_q_fb_u textarea{float:left; width:490px; height:82px; overflow:hidden; margin:15px; background-color:#fff; border:#dbdbdb 1px solid;}
+.comment_q_fb_u button{float:right; width:82px; height:23px; cursor:pointer; margin-right:15px;}
+/*pages*/
+.pages{overflow:hidden; zoom:1; margin-top:-26px;}
+.pages div{float:right; text-indent:0px;}
+.pages div span a{ background-color:#fff;}
+.pages div span a:hover{ color:#000!important}
+.pages div a{ border:solid 1px #e3e3e3; background-color:#fff; padding:0 9px; height:20px; line-height:20px; float:left; margin:0 3px}
+.pages div a:hover,.pages div a.on{ border:solid 1px #068bd2; background-color:#068bd2; text-decoration:none!important; color:#fff!important}
+.ziliao{float:right; width:316px; margin-top:25px; background:url(../images/comment_top.gif) repeat-x; border:#dbdbdb 1px solid;}
+.pingfen{float:left; width:296px; margin:25px 10px 0px 10px; display:inline; font-size:14px; font-weight:bold; font-family: Verdana, Arial, Helvetica, sans-serif;color:#ff3300; border-bottom:#dbdbdb 1px solid; padding-bottom:15px;}
+.pingfen p{margin:0px; padding:10px 0px 0px 0px;}
+.pingfen p span{ font-size:12px; font-weight:400; color:#333;}
+.zl_info{float:left; width:296px; margin:15px 10px 10px 10px; border-bottom:#dbdbdb 1px solid; padding-bottom:10px; display:inline;}
+.zl_info li.pic{float:left; width:80px; height:150px;}
+.zl_info li.pic a img{ width:74px; height:100px; padding:2px; border:#dbdbdb 1px solid;}
+.zl_info li.pic a:hover img{ border:2px solid #077ac7;padding:1px;}
+.zl_info li.wz{float:left; width:201px; padding-left:15px; color:#333;}
+.zl_info li.ss{float:left; width:201px; padding-left:15px; padding-top:8px; color:#333;}
+.down{float:left; width:80px; height:22px; margin-top:3px; line-height:22px; font-weight:bold; text-align:center; background:url(../images/comment_down.gif) no-repeat;}
+.jieshao{float:left; width:286px; margin:5px 15px 50px 15px; line-height:22px; display:inline;}
+#bottom{width:980px; margin:auto;}
+.bottom_so,.copyright{ width:980px;}

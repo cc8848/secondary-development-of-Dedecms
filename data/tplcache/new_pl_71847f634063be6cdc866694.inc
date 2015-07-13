@@ -1,0 +1,12 @@
+<?php
+if(!isset($GLOBALS['_vars'])) $GLOBALS['_vars'] = array(); 
+$fields = array();
+ foreach($rows as row):?>
+<ul>
+					<li class="pic"><a href="#" target="_blank"><img alt="听你唱的幸福的头像" src="http://tp3.sinaimg.cn/1748738062/50/1288878560/0" /></a></li>
+					<li class="txt">
+						<p><a href="#" target="_blank">精神!.绝对忠实了原著的精神。</a><span><a href="#" target="_blank">听你唱的幸福</a> <img src="<?php echo $GLOBALS['cfg_templets_skin']; ?>/images/1.jpg" /></span></p>
+						<p style="padding-top:10px;line-height:22px;">不知道为什么会有这么多人说这个片烂。个人觉得这是文化部审批过的尺度最大的一部片子了，难道是鲁迅的课文删减掉了 大家都不上小学了，看不明白了么？在黑暗的铁匣中昏睡的人真的容不下一个醒转之人的一声呐喊么？ 整个影片在电影界也如同男主人公一样挺枪立马，3d又如何 谁说效果烂就不行了，我...<a href="#" target="_blank">（查看全文）</a> | <a href="#" target="_blank">25人回应</a> | <a href="#" target="_blank">我来回应>></a></p>
+					</li>
+				</ul>
+<?php endforeach;?>

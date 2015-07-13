@@ -1,0 +1,25 @@
+<div class="nav"> 
+	<ul>
+		<li><a href="{dede:global.cfg_cmsurl/}/" target="_self">首页</a></li> 
+		<!--
+			添加自定义标签属性 orderby 
+			通过修改channel标签定义处的源代码 进行配合，实现导航菜单 自定义的排序方式(此处通过id排序)
+		-->
+		{dede:channel orderby="id" type="top" row="8"}
+			<!--
+				大家注意：typeurl并不是dede_arctype表中的字段,它是在程序中临时计算得到的
+				(channel标签定义的文件中GetOneTypeUrlA()函数生成的typeurl)
+			-->
+			<li>
+				<a href="[field:typelink/]" title="[field:typename/]" target="_self">[field:typename /]</a>
+		    </li> 
+		{/dede:channel}
+		<li><a href="http://www.a67.com/zhuanti/" target="_blank">专题</a></li>
+	</ul>
+	<div class="morelink">
+		<a href="http://www.a67.com/3gpcoder/" title="3GP格式转换器" target="_blank">3GP转换器</a> | 
+		<a href="http://www.2366.com/" target="_blank">网页游戏</a> | 
+		<a href="http://db.2u.com.cn/" target="_blank">游戏下载</a>
+	</div>
+	<div class="ico_new"></div>
+</div>

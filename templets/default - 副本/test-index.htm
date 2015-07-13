@@ -1,0 +1,45 @@
+hello world!!! 
+test index
+
+<br/>--include标签的使用--<br/>
+
+
+
+
+<br/>--channel标签的使用--<br/>
+<!--
+    channel标签会产生一个sql语句: 
+	SELECT id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath From `#@__arctype` WHERE reid=0 And ishidden<>1 order by sortrank asc limit 0, 8;  
+
+	field:typename 这个标签就是 把查询到的信息中的typename字段的信息放在这个地方显示出来
+
+	对将要显示的字段信息进行php系统函数的处理: field:typename function='md5(@me)'
+
+	对将要显示的字段信息进行php逻辑代码的简单处理: field:typename runphp='yes'  @me = (@me!="")?"空的":@me;
+
+	如果上面的php逻辑代码比较复杂 则使用自定义的函数进行处理: field:typename function='test_func(@me)'
+	(自定义函数添加到 /include/extend.func.php 文件中)
+
+	使用标签调用全局变量： dede:global.cfg_soft_lang 或 field:global.cfg_soft_lang(嵌套时使用) 或 field:global name='cfg_soft_lang'(嵌套时使用)
+	(全局变量定义的地方 /include/common.inc.php)
+
+-->
+{dede:channel type='top' row='8'}
+
+[field:id/]==[field:typename/]  
+
+[field:typename function='md5(@me)'/]   
+
+[field:typename runphp='yes']
+@me = (@me!="")?"空的":@me;
+[/field:typename]  
+
+[field:typename function='test_func(@me)'/]   
+
+[field:global.cfg_soft_lang/]
+[field:global name='cfg_soft_lang'/]
+
+<br/>{/dede:channel}
+
+
+{dede:global.cfg_soft_lang/}
